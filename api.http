@@ -1,0 +1,14 @@
+POST http://localhost:3333/trips
+Content-Type: application/json
+
+{
+    "destination": "São Paulo",
+    "startsAt": "2024-08-09 10:00:00",
+    "endsAt": "2024-08-15 18:00:00",
+    "ownerName": "Matheus",
+    "ownerEmail": "matheus@example.com",
+    "emailsToInvite": [
+        "johndoe@example.com",
+        "jenydoe@example.com"
+    ]
+}
